@@ -4,289 +4,413 @@
 
 ## 1. Introduction
 
-**A Teacher**, also known as **Attendify Teacher**, is a mobile application developed and operated by **VEXOVIN TECHNOLOGIES LIMITED**.
+**A Teacher** is a mobile application published and operated by **VexovinLLC**.
 
-A Teacher is designed to help teachers and authorized school administrators manage teacher attendance, student attendance, academic records, assessments, and other school-related activities.
+A Teacher is part of the Attendify platform and is designed for authorized teachers and school administrators to manage teacher attendance, student attendance, academic records, assessments, and other school-related activities.
 
-This Privacy Policy explains how **VEXOVIN TECHNOLOGIES LIMITED** and the **A Teacher** application access, collect, use, store, and protect information when you use the application.
-
-By using A Teacher, you acknowledge the practices described in this Privacy Policy.
+This Privacy Policy explains how VexovinLLC accesses, collects, uses, stores, and shares information when you use the A Teacher application.
 
 ---
 
-## 2. Who We Are
+## 2. App and Developer Information
 
-| Information                  | Details                                                 |
-| ---------------------------- | ------------------------------------------------------- |
-| **Application Name**         | A Teacher                                               |
-| **Also Known As**            | Attendify Teacher                                       |
-| **Package Name**             | `com.vexovin.ateacher`                                  |
-| **Developer / Legal Entity** | VEXOVIN TECHNOLOGIES LIMITED                            |
-| **Website**                  | https://attendify.site                                  |
-| **Contact Email**            | [support@attendify.site](mailto:support@attendify.site) |
+| Item                      | Information                                             |
+| ------------------------- | ------------------------------------------------------- |
+| **App Name**              | A Teacher                                               |
+| **Service**               | Attendify                                               |
+| **Package Name**          | `com.vexovin.ateacher`                                  |
+| **Google Play Developer** | VexovinLLC                                              |
+| **Website**               | https://attendify.site                                  |
+| **Privacy Contact**       | [support@attendify.site](mailto:support@attendify.site) |
 
-This Privacy Policy applies to:
-
-* The **A Teacher** mobile application.
-* The Attendify website and associated web services.
-* Backend systems and cloud infrastructure used to provide the service.
+VexovinLLC is responsible for operating the A Teacher application and the associated Attendify services.
 
 ---
 
 ## 3. Information We Collect
 
+A Teacher may collect the following categories of information when necessary to provide its features.
+
 ### 3.1 Account Information
 
-When you log in or are registered by an authorized school, we may collect:
+When a teacher or school administrator uses A Teacher, we may collect:
 
-* Full name.
-* Email address.
-* User role, such as teacher or administrator.
-* School affiliation.
-* Account identification information.
+* Full name
+* Email address
+* User role
+* School affiliation
+* Account information
+* Authentication information
 
-This information is used to identify authorized users and provide access to the appropriate school services and features.
-
----
-
-### 3.2 Location and Geofencing Information
-
-A Teacher may access and collect **precise or approximate location information**, depending on the permissions granted on your device.
-
-Location information is used specifically for **teacher attendance verification and geofencing**.
-
-The app may use your location to:
-
-* Verify that a teacher is within or near an authorized school location when recording attendance.
-* Determine whether a teacher is inside an approved attendance geofence.
-* Prevent unauthorized, inaccurate, or remote attendance check-ins.
-* Support school-defined location-based attendance verification.
-* Record attendance events associated with an authorized location.
-
-Where the background location feature is enabled and permission is granted by the user, A Teacher may access location information while the app is not actively open when necessary to support geofence-based attendance verification.
-
-Location information is used only for attendance verification and school-related location features. We do not use location information for advertising, marketing, or selling personal information.
-
-Users are informed within the application before location permissions are requested. Users may also manage or revoke location permissions through their device settings, although this may affect location-based attendance features.
+This information is used to authenticate users and provide access to authorized school services.
 
 ---
 
-### 3.3 Teacher Attendance Information
+### 3.2 Location Information
 
-When teachers use attendance features, we may collect:
+A Teacher may collect **precise and approximate location information** when location-based attendance features are used and the appropriate device permissions have been granted.
 
-* Check-in and check-out records.
-* Attendance timestamps.
-* Attendance status.
-* School or authorized location associated with an attendance event.
-* Location verification information where geofencing is used.
+Location information may include:
 
-This information may be accessible to authorized school administrators and personnel responsible for attendance management.
+* Precise device location
+* Approximate device location
+* Location used to determine whether a user is within a school geofence
+* Location associated with an attendance event
 
----
-
-### 3.4 Student Information
-
-Authorized school users may enter or access information relating to students, including:
-
-* Student names.
-* Student attendance records.
-* Academic scores.
-* Assessments and academic records.
-
-Schools are responsible for ensuring that they have the appropriate authority and permissions to collect and manage student information.
+Location information is collected specifically to support teacher attendance verification and geofencing.
 
 ---
 
-### 3.5 Device and Technical Information
+## 4. Location and Geofencing
 
-We may automatically collect certain technical information, including:
+A Teacher uses location information to help schools verify teacher attendance at authorized school locations.
 
-* Device type.
-* Operating system and version.
-* Application version.
-* Approximate IP address.
-* Device identifiers where provided by the platform.
-* Crash reports.
-* Diagnostics and error information.
+The application may use location information to:
 
-This information is used to maintain, secure, troubleshoot, and improve the application.
+* Determine whether a teacher is within an authorized school area.
+* Determine whether a teacher is inside a configured attendance geofence.
+* Verify teacher check-in events.
+* Verify teacher check-out events.
+* Help prevent remote or unauthorized attendance submissions.
+* Associate attendance records with an authorized school location.
 
----
+A **geofence** is a virtual geographic boundary established around an authorized school location.
 
-### 3.6 Usage Information
-
-We may collect information about how authorized users interact with the application, including:
-
-* Features used.
-* Attendance actions.
-* Score and academic record entry.
-* Interaction timestamps.
-* System errors and diagnostic information.
+The relevant school may configure the location and attendance rules used by the system.
 
 ---
 
-## 4. How We Use Information
+## 5. Background Location
 
-We use collected information to:
+Where background location permission is enabled and granted by the user, A Teacher may access location information **when the app is not actively in use or is running in the background** to support teacher attendance geofencing and location-based attendance verification.
 
-* Authenticate and identify authorized users.
-* Provide teacher and school management services.
-* Record and manage teacher attendance.
-* Verify attendance using location and geofencing where enabled.
-* Prevent fraudulent or unauthorized attendance check-ins.
-* Store and manage student academic records.
-* Synchronize authorized information across devices and systems.
-* Maintain system security.
-* Troubleshoot technical problems.
-* Improve the performance, reliability, and functionality of the application.
-* Respond to authorized support requests.
+Background location may be used to support:
 
----
+* Teacher attendance geofencing
+* School location verification
+* Location-based attendance verification
 
-## 5. Location Permission and User Control
+Background location is not used for advertising.
 
-Location permissions are requested only when required for location-based features such as teacher attendance verification and geofencing.
+We do not sell location information.
 
-Before requesting sensitive location permissions, A Teacher provides an in-app explanation describing why location access is required.
+Users can manage or revoke location permissions through their Android device settings.
 
-You may:
-
-* Allow or deny location permission.
-* Change location permission settings through your device settings.
-* Revoke previously granted permissions.
-
-If location permission is denied or revoked, location-based attendance and geofencing features may not function correctly.
+If location permission is denied or revoked, location-based attendance and geofencing functionality may not work as intended.
 
 ---
 
-## 6. How Information Is Shared
+## 6. Teacher Attendance Information
 
-We do **not sell personal information or location information**.
+When a teacher uses attendance features, A Teacher may collect:
 
-Information may be shared only as necessary to provide the service.
+* Check-in information
+* Check-out information
+* Attendance date
+* Attendance time
+* Attendance status
+* School associated with the attendance event
+* Location verification associated with the attendance event
 
-### 6.1 Authorized School Personnel
-
-Teacher attendance, academic, and other school-related information may be accessible to authorized school administrators and personnel according to their assigned roles and permissions.
-
-Location-based attendance information may be accessible to authorized school administrators for attendance verification and management.
-
-### 6.2 Service Providers
-
-We may use trusted third-party service providers to operate the application, including services for:
-
-* Authentication.
-* Database and cloud storage.
-* Application hosting.
-* Analytics.
-* Diagnostics and crash reporting.
-
-These providers may process information on our behalf to provide their services.
-
-### 6.3 Legal Requirements
-
-We may disclose information when required by applicable law, legal process, or government authorities, or when reasonably necessary to protect the rights, safety, security, or integrity of users, schools, VEXOVIN TECHNOLOGIES LIMITED, or the public.
+This information is used to record and verify teacher attendance.
 
 ---
 
-## 7. Data Security
+## 7. Student Information
 
-We implement reasonable technical and organizational measures designed to protect information, including:
+Authorized school users may enter and manage student information through the Attendify platform.
 
-* Secure data transmission using encryption where supported.
-* Authentication and access controls.
-* Role-based access restrictions.
-* Secure cloud infrastructure.
-* Measures intended to prevent unauthorized access.
+This may include:
 
-However, no electronic system or method of data transmission can be guaranteed to be completely secure.
+* Student names
+* Student attendance information
+* Academic scores
+* Assessments
+* Academic records
 
----
+Student information is managed on behalf of the relevant school.
 
-## 8. Data Retention
-
-We retain information only for as long as reasonably necessary to provide the service and meet legitimate operational, contractual, or legal requirements.
-
-Attendance and location-related verification records may be retained according to the policies and requirements of the relevant school.
-
-Authorized school administrators may request deletion or management of applicable data, subject to operational, contractual, and legal requirements.
+Schools are responsible for ensuring that they have the appropriate authority to collect and manage student information.
 
 ---
 
-## 9. User Rights and Choices
+## 8. Device and Technical Information
 
-Depending on applicable laws, users may have rights to:
+A Teacher may automatically receive technical information required to operate and maintain the application, including:
 
-* Access personal information.
-* Request correction of inaccurate information.
-* Request deletion of applicable personal information.
-* Restrict or object to certain processing.
-* Withdraw consent where processing is based on consent.
+* Device type
+* Android version
+* Application version
+* IP address
+* Device or application identifiers where applicable
+* Crash information
+* Diagnostic information
+* Error information
 
-Requests may be made through the relevant school administration or by contacting us using the information provided in this Privacy Policy.
-
----
-
-## 10. Children's Information
-
-A Teacher is intended for use by authorized teachers, school administrators, and other authorized school personnel.
-
-The application is not intended for direct use by children.
-
-Student information may be entered, accessed, or managed by authorized school personnel. Schools are responsible for ensuring that they have the appropriate authority and permissions required to manage student information.
+Technical information may be used for security, troubleshooting, diagnostics, and application improvement.
 
 ---
 
-## 11. International Data Processing
+## 9. Usage Information
 
-Information may be processed or stored using cloud infrastructure located outside the user's country or the country where a school operates.
+We may collect information about how users interact with A Teacher, including:
 
-Where applicable, we take reasonable measures intended to ensure that such processing is carried out with appropriate safeguards.
+* Features used
+* Attendance actions
+* Academic record actions
+* Interaction timestamps
+* Error reports
+* Diagnostic information
+
+This information helps us maintain and improve the application.
 
 ---
 
-## 12. Third-Party Services
+## 10. How We Use Information
 
-A Teacher may use third-party services, including Google Firebase, for functions such as:
+We may use collected information to:
 
-* Authentication.
-* Cloud databases.
-* Application infrastructure.
-* Analytics.
-* Diagnostics.
+* Authenticate users.
+* Manage user accounts.
+* Provide teacher attendance services.
+* Verify attendance using location and geofencing.
+* Confirm attendance at authorized school locations.
+* Prevent unauthorized attendance submissions.
+* Manage student attendance.
+* Manage academic records and assessments.
+* Synchronize information between authorized systems.
+* Maintain application security.
+* Diagnose technical problems.
+* Improve application performance.
+* Provide customer and technical support.
+
+---
+
+## 11. Location Permission and Consent
+
+A Teacher requests location permission when location-based attendance functionality requires it.
+
+Before requesting the applicable location permission, the application provides an in-app explanation describing:
+
+* That the application uses location.
+* Why location is required.
+* That location is used for teacher attendance verification.
+* That geofencing may be used to verify the teacher's school location.
+* Where applicable, that location may be accessed in the background.
+
+Users can allow, deny, or revoke location permission through their device settings.
+
+---
+
+## 12. Sharing of Location Information
+
+We do not sell or rent location information.
+
+Location-related information may be made available to authorized school personnel where necessary for:
+
+* Teacher attendance verification
+* Attendance management
+* Reviewing attendance records
+* School administration
+* Attendance security
+
+Location information is not provided to advertisers for advertising or targeted marketing.
+
+---
+
+## 13. Sharing of Other Information
+
+Information may be shared with or made accessible to parties necessary to provide the service.
+
+### 13.1 Schools and Authorized Users
+
+Authorized school administrators and personnel may access information according to their assigned roles.
+
+This may include:
+
+* Teacher attendance records
+* Attendance times
+* Attendance verification information
+* Student attendance information
+* Academic records
+
+### 13.2 Service Providers
+
+We may use third-party service providers for services such as:
+
+* Authentication
+* Cloud database services
+* Cloud storage
+* Application infrastructure
+* Analytics
+* Diagnostics
+* Crash reporting
+
+These providers may process information on our behalf as necessary to provide their services.
+
+### 13.3 Legal Requirements
+
+Information may be disclosed where reasonably necessary to:
+
+* Comply with applicable law.
+* Respond to lawful legal processes.
+* Respond to lawful government requests.
+* Protect users or schools.
+* Protect the security of the service.
+* Prevent fraud or abuse.
+
+---
+
+## 14. Firebase and Third-Party Services
+
+A Teacher may use Google Firebase services, including:
+
+* Firebase Authentication
+* Cloud Firestore
+* Firebase Realtime Database
+* Firebase Storage
+* Firebase Analytics
+* Firebase Crashlytics
 
 These services may process information necessary to provide their respective functionality.
 
-For more information about Google's privacy practices, visit:
+Google Privacy Policy:
+
+https://policies.google.com/privacy
+
+Firebase Privacy Information:
 
 https://firebase.google.com/support/privacy
 
 ---
 
-## 13. Cookies and Similar Technologies
+## 15. Data Security
 
-The mobile application does not use traditional browser cookies in the same way as a website.
+We use reasonable technical and organizational measures designed to protect information from unauthorized access, alteration, disclosure, or destruction.
 
-However, the application or its service providers may use device identifiers, analytics technologies, or similar mechanisms necessary for authentication, security, diagnostics, and service improvement.
+These measures may include:
+
+* Encrypted data transmission.
+* HTTPS.
+* Authentication controls.
+* Role-based access controls.
+* Database access restrictions.
+* Secure cloud infrastructure.
+* Security monitoring and diagnostics.
+
+No internet-based service can guarantee complete security of information.
 
 ---
 
-## 14. Changes to This Privacy Policy
+## 16. Data Retention
 
-We may update this Privacy Policy from time to time.
+We retain information only for as long as reasonably necessary to provide the service and meet applicable operational, contractual, or legal requirements.
 
-When changes are made, the updated version will be published with a revised **Last Updated** date.
+Teacher attendance and location verification information may be retained together with the associated attendance record according to the relevant school's requirements.
 
-Continued use of the application after an updated policy becomes effective may be subject to the revised Privacy Policy.
+When information is no longer required, it may be deleted or anonymized, subject to applicable retention requirements.
 
 ---
 
-## 15. Contact Information
+## 17. Data Deletion
 
-If you have questions, requests, or concerns regarding this Privacy Policy or how information is handled, please contact:
+Users may request deletion of applicable personal information.
 
-**VEXOVIN TECHNOLOGIES LIMITED**
+For school-managed accounts, requests may be submitted through the relevant school administrator.
+
+Users may also contact VexovinLLC directly:
+
+**Email:** [support@attendify.site](mailto:support@attendify.site)
+
+When a valid deletion request is received, applicable information will be deleted or anonymized unless retention is required or permitted by applicable law or legitimate operational requirements.
+
+---
+
+## 18. User Rights
+
+Depending on applicable law, users may have rights to:
+
+* Access their personal information.
+* Correct inaccurate information.
+* Request deletion of applicable information.
+* Request restriction of certain processing.
+* Object to certain processing.
+* Withdraw consent where applicable.
+
+Requests can be submitted through the relevant school administrator or by contacting VexovinLLC.
+
+---
+
+## 19. Children's Information
+
+A Teacher is designed for authorized:
+
+* Teachers
+* School administrators
+* School staff
+
+The application is not intended for direct use by children.
+
+Student information may be entered and managed by authorized school personnel.
+
+Schools are responsible for ensuring that they have the necessary authority and permissions to manage student information.
+
+---
+
+## 20. International Data Processing
+
+Information may be stored or processed using cloud infrastructure located outside the user's country.
+
+Where applicable, reasonable safeguards are used for international processing of information.
+
+---
+
+## 21. Cookies and Similar Technologies
+
+The A Teacher mobile application does not use traditional browser cookies as a website would.
+
+The application and its service providers may nevertheless use technologies such as:
+
+* Authentication tokens
+* Device identifiers
+* Analytics technologies
+* Diagnostic technologies
+
+These technologies may be used for authentication, security, functionality, diagnostics, and service improvement.
+
+---
+
+## 22. School Responsibilities
+
+Schools using Attendify are responsible for determining how school-managed information is collected and used.
+
+Schools may determine:
+
+* Which teachers can use A Teacher.
+* Which school locations are configured for geofencing.
+* Which attendance rules apply.
+* Which school personnel can access attendance information.
+* How school records should be managed.
+
+VexovinLLC provides the technology platform used to support these school operations.
+
+---
+
+## 23. Changes to This Privacy Policy
+
+We may update this Privacy Policy when our services, data practices, or applicable requirements change.
+
+The **Last Updated** date at the beginning of this policy will be updated when material changes are made.
+
+Users are encouraged to review this Privacy Policy periodically.
+
+---
+
+## 24. Contact Us
+
+If you have questions, concerns, or requests regarding this Privacy Policy or the handling of information by A Teacher, contact:
+
+**VexovinLLC**
 
 **Email:** [support@attendify.site](mailto:support@attendify.site)
 
@@ -294,18 +418,12 @@ If you have questions, requests, or concerns regarding this Privacy Policy or ho
 
 ---
 
-## 16. Roles Regarding School Data
+## 25. Compliance
 
-For student and school-managed information, the relevant school may act as the organization responsible for determining how and why such information is collected and used.
+VexovinLLC is committed to responsible handling of user information and to maintaining practices designed to comply with applicable data protection requirements and Google Play Developer Policies.
 
-VEXOVIN TECHNOLOGIES LIMITED provides the A Teacher platform and associated services to support authorized school operations.
-
-The responsibilities of the school and VEXOVIN TECHNOLOGIES LIMITED may vary depending on the nature of the data and the applicable service arrangement.
+This Privacy Policy should be considered together with the application's in-app privacy disclosures, permission notices, and Google Play Data Safety disclosures.
 
 ---
 
-## 17. Compliance
-
-VEXOVIN TECHNOLOGIES LIMITED is committed to handling information responsibly and maintaining practices intended to comply with applicable data protection requirements and relevant platform policies.
-
-This Privacy Policy should be read together with any applicable school policies, user agreements, and platform permission notices.
+**© 2026 VexovinLLC. All rights reserved.**
